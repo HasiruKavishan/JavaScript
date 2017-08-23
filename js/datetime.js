@@ -1,7 +1,7 @@
 now = new Date();
 localtime = now.toString();
 utctime = now.toGMTString();
-document.write("<b>Local time:</b> " + localtime + "<BR>");
+document.write("<b>Local time is:</b> " + localtime + "<BR>");
 document.write("<b>UTC time:</b> " + utctime);
 hours = now.getHours();
 mins = now.getMinutes();
