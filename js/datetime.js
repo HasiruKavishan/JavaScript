@@ -9,3 +9,4 @@ secs = now.getSeconds();
 document.write("<h1>");
 document.write(hours + ":" + mins + ":" + secs);
 document.write("</h1>");
+document.write("Testing");
